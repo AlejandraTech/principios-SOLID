@@ -2,22 +2,17 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package OperacionesVehiculo;
+package Actividad1;
 
 /**
  *
  * @author AlejandraTech
  */
-public class Avion implements OperacionesVehiculo, OperacionesAereas {
+public class Auto implements OperacionesVehiculo {
 
     @Override
     public void conducir() {
-        System.out.println("Volando un avión…");
+        System.out.println("Conduciendo un auto…");
     }
 
-    @Override
-    public void volar() {
-        System.out.println("Volando un avión…");
-    }
-    
 }

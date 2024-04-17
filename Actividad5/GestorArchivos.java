@@ -2,14 +2,18 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Interface.java to edit this template
  */
-package CalculadoraDescuento;
+package Actividad5;
 
 /**
  *
  * @author AlejandraTech
  */
-public interface CalculadoraDescuento {
+public interface GestorArchivos {
 
-    double aplicarDescuento(double monto);
+    String leerArchivo(String path);
+
+    void escribirArchivo(String contenido, String path);
+
+    String encriptarContenido(String contenido);
 
 }
